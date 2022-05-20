@@ -1,0 +1,16 @@
+
+2021-01-14 11:26:38,218--demo_02_logging进阶.py--line:20--ERROR:error
+2021-01-14 11:26:38,219--demo_02_logging进阶.py--line:21--WARNING:warning
+2021-01-14 11:26:38,219--demo_02_logging进阶.py--line:22--CRITICAL:critical
+2021-01-31 20:44:31,730--demo_02_logging进阶.py--line:20--ERROR:error
+2021-01-31 20:44:31,731--demo_02_logging进阶.py--line:21--WARNING:warning
+2021-01-31 20:44:31,731--demo_02_logging进阶.py--line:22--CRITICAL:critical
+2021-01-31 20:44:35,697--demo_02_logging进阶.py--line:20--ERROR:error
+2021-01-31 20:44:35,697--demo_02_logging进阶.py--line:21--WARNING:warning
+2021-01-31 20:44:35,697--demo_02_logging进阶.py--line:22--CRITICAL:critical
+2021-01-31 20:44:40,702--demo_02_logging进阶.py--line:20--ERROR:error
+2021-01-31 20:44:40,702--demo_02_logging进阶.py--line:21--WARNING:warning
+2021-01-31 20:44:40,702--demo_02_logging进阶.py--line:22--CRITICAL:critical
+2021-01-31 20:45:17,464--demo_02_logging进阶.py--line:20--ERROR:error
+2021-01-31 20:45:17,465--demo_02_logging进阶.py--line:21--WARNING:warning
+2021-01-31 20:45:17,465--demo_02_logging进阶.py--line:22--CRITICAL:critical

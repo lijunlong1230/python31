@@ -1,0 +1,13 @@
+.F
+======================================================================
+ERROR: test_login_02_error (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\班级管理\python29期\class16_unittest\tests\test_login.py", line 66, in test_login_02_error
+    1 / 0
+ZeroDivisionError: division by zero
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (errors=1)

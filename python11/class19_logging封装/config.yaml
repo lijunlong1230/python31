@@ -1,0 +1,15 @@
+  log:
+    name: 'python30'
+    file: 'pythonlog.txt'
+    logger_level: 'DEBUG'
+    stream_level: 'DEBUG'
+    file_level: 'INFO'
+
+  excel:
+    file: 'cases.xlsx'
+
+  teachers:
+    - lili
+    - miyi
+    - xiaoming
+

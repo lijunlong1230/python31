@@ -1,0 +1,6 @@
+2021-01-14 15:15:29,530--logging.handler.py--line:35--WARNING:woshi :warning
+2021-01-14 15:15:29,530--logging.handler.py--line:36--ERROR:woshi error
+2021-01-14 15:15:29,530--logging.handler.py--line:37--INFO:woshi :info
+2021-01-14 15:16:31,065--test.py--line:35--ERROR:woshi_error
+2021-01-14 15:27:41,223--logging.handler.py--line:32--ERROR:woshi :error
+2021-01-14 17:37:14,869--logging.handler.py--line:36--ERROR:woshi :error

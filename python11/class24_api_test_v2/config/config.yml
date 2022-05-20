@@ -1,0 +1,16 @@
+excel:
+  file: cases.xlsx
+
+logger:
+  name: "python29"
+  file: "python29log.txt"
+  logger_level: "DEBUG"
+  stream_level: "DEBUG"
+  file_level: "INFO"
+
+db:
+  host: "120.78.128.25"
+  port: 3306
+  user: "future"
+  password: "123456"
+  charset: 'utf8'
