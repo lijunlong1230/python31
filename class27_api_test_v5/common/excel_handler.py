@@ -35,7 +35,7 @@ class ExcelHandler:
         # 添加数据
         for row in rows[1:]:
             row_data = {}
-
+            #enumerate的作用就是可以获得索引和值 所以下面是idx 和 cell
             for idx, cell in enumerate(row):
                 row_data[headers[idx]] = cell.value
 

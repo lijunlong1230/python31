@@ -11,7 +11,7 @@ from middleware.handler import Handler
 env_data = Handler()
 test_data = env_data.excel.read_data("audit")
 
-@ddt.ddt
+@ddt.ddt#审核用例
 class TestAudit(unittest.TestCase):
 
     @classmethod
@@ -20,7 +20,7 @@ class TestAudit(unittest.TestCase):
         cls.token = env_data.token
         cls.member_id = env_data.member_id
 
-        # 管理员用户登录
+        # 管理员用户登录 审核用例
         # 在 yaml 当中添加管理员的账号和密码
         # 封装 admin_login() 函数进行登录， 放到 handler 中。
         cls.admin_token = env_data.admin_token
@@ -44,7 +44,7 @@ class TestAudit(unittest.TestCase):
         if "#pass_loan_id#" in data:
             pass_loan = self.db.query("SELECT * FROM futureloan.loan WHERE status !=1;")
             data = data.replace("#pass_loan_id#", str(pass_loan["id"]))
-
+        #理解为本身就是{}包围从而变成字典形式 因为data中有运算 json.load是不能运算
         data = eval(data)
 
         # 替换 headers

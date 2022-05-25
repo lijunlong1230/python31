@@ -134,17 +134,27 @@ import openpyxl
 #     for cell in row:
 #         print(type(cell.value))
 
+# import openpyxl
+#
+# workbook = openpyxl.load_workbook("cases.xlsx")
+# sheet: Worksheet = workbook["add"]
+# rows = list(sheet.rows)
+# print(rows)
+# for i in rows[1:]:
+#     print(i)
+#     for j in i:
+#         print(j.value)
+
 import openpyxl
 
 workbook = openpyxl.load_workbook("cases.xlsx")
-print(workbook)
-sheet: Worksheet = workbook["add"]
+sheet: Worksheet = workbook["login"]
 rows = list(sheet.rows)
-
 for i in rows[1:]:
-    print(i)
     for j in i:
         print(j.value)
+
+
 
 
 

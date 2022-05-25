@@ -50,6 +50,7 @@ class TestRegister(unittest.TestCase):
             logger.info("测试用例通过")
         except AssertionError as e:
             logger.error("测试用例无法通过:{}".format(e))
+            #raise代表用户主动抛出一个异常 并不是内存溢出之类的系统或者程序异常
             raise e
 
     def random_phone(self):

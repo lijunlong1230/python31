@@ -118,7 +118,7 @@ class Handler:
     #     token = " ".join([token_type, token_str])
     #     # 提取 member_id
     #     return token
-
+    #添加项目
     def add_loan(self):
         data = {"member_id": self.member_id,
                 "title": "木森借钱买飞机",
@@ -138,7 +138,7 @@ class Handler:
         # 提取项目的id给审核的用例使用
         return jsonpath(res, "$..id")[0]
 
-
+    #审核项目id
     def audit_loan(self):
 
         data = {"loan_id":self.loan_id,"approved_or_not": True}
@@ -150,7 +150,7 @@ class Handler:
             json=data
         )
         # return self.loan_id
-
+    #充值
     def recharge(self):
 
         data = {"member_id": self.member_id,"amount":500000}

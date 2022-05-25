@@ -10,7 +10,7 @@ test_data = Handler.excel.read_data("add")
 env_data = Handler()
 
 
-@ddt.ddt
+@ddt.ddt#投资项目
 class LoginTestCase(unittest.TestCase):
 
     @classmethod
@@ -30,11 +30,12 @@ class LoginTestCase(unittest.TestCase):
     @ddt.data(*test_data)
     def test_invest(self, test_info):
         data = test_info["data"]
-
+        #这里用了正则表达式 替换了##里的数据
         data = env_data.replace_data(data)
 
         data = eval(data)
         headers = test_info["headers"]
+        #这里用了正则表达式 替换了##里的数据
         headers = env_data.replace_data(headers)
         headers = json.loads(headers)
 
